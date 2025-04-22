@@ -1,0 +1,29 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14.5px;
+    background-color: #0f0fec;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.2s linear;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #1616b1;
+}
+
+.link {
+    text-decoration: none;
+}
